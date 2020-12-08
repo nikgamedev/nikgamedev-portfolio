@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: boldFont;
     src: url(fonts/Ubuntu-B.ttf);
 }
@@ -6,7 +6,7 @@
 @font-face {
     font-family: regularFont;
     src: url(fonts/Ubuntu-R.ttf);
-}
+} */
 
 html,
 body {
@@ -25,14 +25,14 @@ body {
 .title-color {
     color: #f1ce02;
     padding-bottom: 5px;
-    font-family: boldFont;
+    /* font-family: boldFont; */
     border-bottom: 2px solid #262626;
 }
 
 .light-title {
     color: #fff;
     padding-bottom: 5px;
-    font-family: regularFont;
+    /* font-family: regularFont; */
     border-bottom: 2px solid #262626;
 }
 
