@@ -1,0 +1,42 @@
+@font-face {
+    font-family: boldFont;
+    src: url(fonts/Ubuntu-B.ttf);
+}
+
+@font-face {
+    font-family: regularFont;
+    src: url(fonts/Ubuntu-R.ttf);
+}
+
+html,
+body {
+    height: 100%;
+    background-color: #2e2e2e;
+    overflow: hidden;
+}
+
+.round-img {
+    width: 150px;
+    height: auto;
+    border: 4px solid #fff;
+    border-radius: 80px;
+}
+
+.title-color {
+    color: #f1ce02;
+    padding-bottom: 5px;
+    font-family: boldFont;
+    border-bottom: 2px solid #262626;
+}
+
+.light-title {
+    color: #fff;
+    padding-bottom: 5px;
+    font-family: regularFont;
+    border-bottom: 2px solid #262626;
+}
+
+.icone img {
+    width: 40px;
+    margin: 3px;
+}
