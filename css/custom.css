@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
     height: 100%;
     background-color: #2e2e2e;
     overflow: hidden;
@@ -27,4 +26,16 @@ body {
 .icone img {
     width: 40px;
     margin: 3px;
+}
+
+.visitcounter {
+    position: relative;
+    bottom: 50px; 
+}
+
+.countercontent {
+    text-align: center;
+    background: white;
+    padding: 15px;
+    border-radius: 3px;
 }
