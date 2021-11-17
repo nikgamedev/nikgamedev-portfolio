@@ -15,12 +15,14 @@ html, body {
     color: #f1ce02;
     padding-bottom: 5px;
     border-bottom: 2px solid #262626;
+    border-width: medium;
 }
 
 .light-title {
     color: #fff;
     padding-bottom: 5px;
     border-bottom: 2px solid #262626;
+    border-width: medium;
 }
 
 .icone img {
@@ -41,7 +43,15 @@ html, body {
 }
 
 .games-title {
+    color: antiquewhite;
+    text-decoration: underline;
+}
+
+.projects-title {
     color: skyblue;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #262626;    
+    border-width: thick;
 }
 
 .light-notification {
